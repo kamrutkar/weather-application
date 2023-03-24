@@ -11,6 +11,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@vercel/node": "^2.10.0",
     "express": "^4.17.1",
     "hbs": "^4.1.2",
     "request": "^2.88.2"
@@ -19,6 +20,9 @@
     "jest": "^29.3.1"
   },
   "pkg": {
-    "assets": ["src/**/*", "templates/**/*"]
+    "assets": [
+      "src/**/*",
+      "templates/**/*"
+    ]
   }
 }
