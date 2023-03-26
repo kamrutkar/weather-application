@@ -94,4 +94,7 @@ app.get('/products', (req, res) => {
 
 app.listen(port, () => {
     console.log('server is up on port ' + port)
-}) // start the server and its gonna listen 
+}) // start the server and its gonna listen
+
+// Export the Express API
+module.exports = app;
